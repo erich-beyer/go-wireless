@@ -1,4 +1,4 @@
-module github.com/theojulienne/go-wireless
+module github.com/erich-beyer/go-wireless
 
 go 1.19
 
@@ -6,6 +6,7 @@ require (
 	github.com/gin-gonic/gin v1.7.7
 	github.com/pkg/errors v0.9.1
 	github.com/smartystreets/goconvey v1.7.2
+	github.com/theojulienne/go-wireless v1.2.0
 )
 
 require (
