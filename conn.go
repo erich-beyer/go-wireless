@@ -159,7 +159,6 @@ func (c *Conn) SendCommandWithContext(ctx context.Context, command ...string) (s
 			return resp, nil
 		case <-ctx.Done():
 			return "", ErrCmdTimeout
-
 		}
 	}
 }
